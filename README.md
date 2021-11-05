@@ -25,12 +25,15 @@ winget install JanDeDobbeleer.OhMyPosh
 ```
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope LocalMachine
 Install-Module -Name Terminal-Icons -Repository PSGallery
+Install-Module PSReadLine -Force
 ```
 
 ## PowerShell Profile
 
 
 > File: C:\Users\%USERNAME%\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+
+> File: C:\Users\%USERNAME%\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
 
 ```
 oh-my-posh --init --shell pwsh --config "C:\Users\$env:UserName\AppData\Local\Programs\oh-my-posh\themes\custom.json" | Invoke-Expression

@@ -53,8 +53,9 @@
       "segments": [
         {
           "type": "node",
-          "style": "powerline",
-          "powerline_symbol": "",
+          "style": "diamond",
+          "trailing_diamond": "\uE0B4 ",
+          "leading_diamond": "\uE0B6",
           "foreground": "#ffffff",
           "background": "#6CA35E",
           "properties": {
@@ -64,8 +65,9 @@
         },
         {
           "type": "python",
-          "style": "powerline",
-          "powerline_symbol": "",
+          "style": "diamond",
+          "trailing_diamond": "\uE0B4 ",
+          "leading_diamond": "\uE0B6",
           "foreground": "#111111",
           "background": "#FFDE57",
           "properties": {
@@ -73,6 +75,18 @@
             "display_version": true,
             "display_mode": "files",
             "display_virtual_env": false
+          }
+        },
+        {
+          "type": "php",
+          "style": "diamond",
+          "trailing_diamond": "\uE0B4 ",
+          "leading_diamond": "\uE0B6",
+          "foreground": "#ffffff",
+          "background": "#8993be",
+          "properties": {
+            "prefix": " \uE73D ",
+            "display_version": true
           }
         }
       ]
