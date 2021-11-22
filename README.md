@@ -22,9 +22,13 @@ winget install JanDeDobbeleer.OhMyPosh
 
 - Run as **Administrator** with **PowerShell**
 
-```
+``` bash
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope LocalMachine
+```
+``` bash
 Install-Module -Name Terminal-Icons -Repository PSGallery
+```
+``` bash
 Install-Module PSReadLine -Force
 ```
 
@@ -35,10 +39,6 @@ Install-Module PSReadLine -Force
 
 > File: C:\Users\%USERNAME%\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
 
-```
-oh-my-posh --init --shell pwsh --config "C:\Users\$env:UserName\AppData\Local\Programs\oh-my-posh\themes\custom.json" | Invoke-Expression
-Import-Module -Name Terminal-Icons
-```
 
 ## Theme
 
