@@ -13,32 +13,35 @@
 
 ## Install
 
-``` bash
+```bash
 winget install JanDeDobbeleer.OhMyPosh
 ```
 
 ## PowerShell-ExecutionPolicy
 
-
 - Run as **Administrator** with **PowerShell**
 
-``` bash
+```bash
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope LocalMachine
 ```
-``` bash
+
+```bash
 Install-Module -Name Terminal-Icons -Repository PSGallery
 ```
-``` bash
+
+```bash
 Install-Module PSReadLine -Force
+```
+
+```bash
+Install-Module posh-git -Scope CurrentUser -Force
 ```
 
 ## PowerShell Profile
 
-
 > File: C:\Users\%USERNAME%\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
 
 > File: C:\Users\%USERNAME%\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
-
 
 ## Theme
 

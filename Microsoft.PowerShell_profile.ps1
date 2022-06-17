@@ -3,6 +3,8 @@ cls
 # OhMyPosh
 oh-my-posh --init --shell pwsh --config "C:\Users\$env:UserName\AppData\Local\Programs\oh-my-posh\themes\custom.json" | Invoke-Expression
 
+# Git Posh
+Import-Module posh-git
 
 # Icons
 Import-Module -Name Terminal-Icons
